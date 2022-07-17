@@ -1,0 +1,33 @@
+<html>
+<head>
+<style>
+        
+	.code{
+		resize:none;
+		height:350px;
+		width:1500px;
+		
+		}
+       
+</style>
+<script>
+function lw()
+{
+  x=document.getElementById("d1");
+  z=document.getElementById("d2");
+  x.innerHTML=z.value;
+}
+
+</script>
+<title >LIVE HTML INTERPRETER</title>
+<h1 ><center>LIVE HTML INTERPRETER</center></h1>
+</head>
+
+<body bgcolor="goldenrod" >
+
+Enter Your Code Here:<br /><br /><textarea id="d2" onkeyup="lw()" class="code">Type your code here</textarea>
+<br /><br />
+<div id="d1" class="code" >code output is visible here</div>
+
+</body>
+</html>
